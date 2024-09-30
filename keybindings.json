@@ -1,0 +1,43 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+a",
+        "command": "extension.vim_escape",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "alt+z",
+        "command": "workbench.action.terminal.sizeToContentWidth",
+        "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen || terminalFocus && terminalIsOpen && terminalProcessSupported"
+    }
+    {
+        "key": "alt+o",
+        "command": "editor.action.marker.next",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+i",
+        "command": "editor.action.marker.prev",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.openEditorAtIndex1",
+        "when": "editorFocus && vim.active"
+    },
+    {
+        "key": "alt+w",
+        "command": "workbench.action.openEditorAtIndex2",
+        "when": "editorFocus && vim.active"
+    },
+    {
+        "key": "alt+e",
+        "command": "workbench.action.openEditorAtIndex3",
+        "when": "editorFocus && vim.active"
+    },
+    {
+        "key": "alt+r",
+        "command": "workbench.action.openEditorAtIndex4",
+        "when": "editorFocus && vim.active"
+    },
+]
